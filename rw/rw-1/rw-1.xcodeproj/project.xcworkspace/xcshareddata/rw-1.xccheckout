@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3FBFBB6D-C1D0-4598-B6C8-EEE184E7397A</string>
+	<string>6B026CE2-226B-4093-A68A-7BD98E230D92</string>
 	<key>IDESourceControlProjectName</key>
-	<string>2048Tutorial</string>
+	<string>rw-1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>AE527BA2-E37D-4EC6-A814-2A9F75348862</key>
 		<string>ssh://github.com/tomaszgieres/ios-learning.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>2048-tutorial/2048Tutorial/2048Tutorial.xcodeproj/project.xcworkspace</string>
+	<string>rw/rw-1/rw-1.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AE527BA2-E37D-4EC6-A814-2A9F75348862</key>
