@@ -21,6 +21,7 @@
 		0FF195B419068D0F00AB7010 /* tbnr_book_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF195B319068D0F00AB7010 /* tbnr_book_1Tests.m */; };
 		0FF195C019068E7E00AB7010 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF195BE19068E7E00AB7010 /* BNRQuizViewController.m */; };
 		0FF195C119068E7E00AB7010 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF195BF19068E7E00AB7010 /* BNRQuizViewController.xib */; };
+		0FF195C31908089200AB7010 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF195C21908089200AB7010 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0FF195BD19068E7E00AB7010 /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
 		0FF195BE19068E7E00AB7010 /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
 		0FF195BF19068E7E00AB7010 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
+		0FF195C21908089200AB7010 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				0FF1959D19068D0F00AB7010 /* BNRAppDelegate.h */,
 				0FF1959E19068D0F00AB7010 /* BNRAppDelegate.m */,
+				0FF195C21908089200AB7010 /* Icon@2x.png */,
 				0FF195A019068D0F00AB7010 /* Images.xcassets */,
 				0FF1959519068D0F00AB7010 /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FF1959919068D0F00AB7010 /* InfoPlist.strings in Resources */,
+				0FF195C31908089200AB7010 /* Icon@2x.png in Resources */,
 				0FF195C119068E7E00AB7010 /* BNRQuizViewController.xib in Resources */,
 				0FF195A119068D0F00AB7010 /* Images.xcassets in Resources */,
 			);
