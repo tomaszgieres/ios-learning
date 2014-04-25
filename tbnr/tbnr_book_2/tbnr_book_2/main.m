@@ -7,15 +7,35 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BNRItem.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        NSMutableArray *items = [[NSMutableArray alloc] init];
+        [items addObject:@"One"];
+        [items addObject:@"Two"];
+        [items addObject:@"Three"];
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        [items insertObject:@"Zero" atIndex:0];
         
+        for (NSString *item in items) {
+            NSLog(@"%@", item);
+        }
+        
+        items = nil;
+        
+        BNRItem *item = [[BNRItem alloc] init];
+//        [item setItemName:@"Red Sofa"];
+//        [item setSerialNumber:@"QWE123"];
+//        [item setValueInDollars:100];
+        item.itemName = @"Red Sofa";
+        item.serialNumber = @"QWE123";
+        item.valueInDollars = 100;
+        
+        
+        NSLog(@"%@ %@ %@ %d", item.itemName, item.dateCreated, item.serialNumber, item.valueInDollars);
     }
     return 0;
 }
