@@ -25,17 +25,17 @@ int main(int argc, const char * argv[])
         }
         
         items = nil;
+
+
+        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa" valueInDollars:100 serialNumber:@"A1B2C"];
+        NSLog(@"%@", item);
+        item = nil;
         
-        BNRItem *item = [[BNRItem alloc] init];
-//        [item setItemName:@"Red Sofa"];
-//        [item setSerialNumber:@"QWE123"];
-//        [item setValueInDollars:100];
-        item.itemName = @"Red Sofa";
-        item.serialNumber = @"QWE123";
-        item.valueInDollars = 100;
+        item = [[BNRItem alloc] init];
+        NSLog(@"%@", item);
         
-        
-        NSLog(@"%@ %@ %@ %d", item.itemName, item.dateCreated, item.serialNumber, item.valueInDollars);
+        item = [BNRItem randomItem];
+        NSLog(@"%@", item);
     }
     return 0;
 }
