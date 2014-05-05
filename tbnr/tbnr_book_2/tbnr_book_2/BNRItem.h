@@ -21,6 +21,8 @@
 -(instancetype)initWithItemName:(NSString *)name
                  valueInDollars:(int)value
                    serialNumber:(NSString *)sNumber;
+-(instancetype)initBroken:(NSString *)name
+             serialNumber:(NSString *)sNumber;
 -(instancetype)initWithItemName:(NSString *)name;
 
 //getters and setters

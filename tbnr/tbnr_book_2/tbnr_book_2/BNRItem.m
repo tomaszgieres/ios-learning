@@ -49,6 +49,14 @@
     return self;
 }
 
+-(instancetype) initBroken:(NSString *)name
+              serialNumber:(NSString *)sNumber {
+    
+    // def not designated initializer
+    
+    return self;
+}
+
 -(instancetype) initWithItemName:(NSString *)name {
     return [self initWithItemName:name
                    valueInDollars:0
