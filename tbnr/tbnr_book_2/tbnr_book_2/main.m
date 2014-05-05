@@ -14,28 +14,21 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         NSMutableArray *items = [[NSMutableArray alloc] init];
-        [items addObject:@"One"];
-        [items addObject:@"Two"];
-        [items addObject:@"Three"];
         
-        [items insertObject:@"Zero" atIndex:0];
+        for(int i=0; i<10; i++) {
+            BNRItem *item = [BNRItem randomItem];
+            [items addObject:item];
+        }
+
+        id lastObject = [items lastObject];
+        [lastObject count];
         
-        for (NSString *item in items) {
+        for(BNRItem *item in items) {
             NSLog(@"%@", item);
         }
         
         items = nil;
 
-
-        BNRItem *item = [[BNRItem alloc] initWithItemName:@"Red Sofa" valueInDollars:100 serialNumber:@"A1B2C"];
-        NSLog(@"%@", item);
-        item = nil;
-        
-        item = [[BNRItem alloc] init];
-        NSLog(@"%@", item);
-        
-        item = [BNRItem randomItem];
-        NSLog(@"%@", item);
     }
     return 0;
 }
