@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F62EB921918ED1B00FD49A5 /* BNRContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62EB911918ED1B00FD49A5 /* BNRContainer.m */; };
 		0FF195D1190A7C8C00AB7010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF195D0190A7C8C00AB7010 /* Foundation.framework */; };
 		0FF195D4190A7C8C00AB7010 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF195D3190A7C8C00AB7010 /* main.m */; };
 		0FF195D8190A7C8D00AB7010 /* tbnr_book_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FF195D7190A7C8D00AB7010 /* tbnr_book_2.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F62EB901918ED1B00FD49A5 /* BNRContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRContainer.h; sourceTree = "<group>"; };
+		0F62EB911918ED1B00FD49A5 /* BNRContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRContainer.m; sourceTree = "<group>"; };
 		0FF195CD190A7C8C00AB7010 /* tbnr_book_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tbnr_book_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF195D0190A7C8C00AB7010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0FF195D3190A7C8C00AB7010 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				0FF195DF190A901200AB7010 /* BNRItem.m */,
 				0FF195D7190A7C8D00AB7010 /* tbnr_book_2.1 */,
 				0FF195D5190A7C8C00AB7010 /* Supporting Files */,
+				0F62EB901918ED1B00FD49A5 /* BNRContainer.h */,
+				0F62EB911918ED1B00FD49A5 /* BNRContainer.m */,
 			);
 			path = tbnr_book_2;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				0FF195D4190A7C8C00AB7010 /* main.m in Sources */,
 				0FF195E0190A901200AB7010 /* BNRItem.m in Sources */,
+				0F62EB921918ED1B00FD49A5 /* BNRContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,7 @@
 				0FF195DD190A7C8D00AB7010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

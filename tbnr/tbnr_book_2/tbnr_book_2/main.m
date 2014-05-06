@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BNRItem.h"
+#import "BNRContainer.h"
 
 int main(int argc, const char * argv[])
 {
@@ -19,15 +20,20 @@ int main(int argc, const char * argv[])
             BNRItem *item = [BNRItem randomItem];
             [items addObject:item];
         }
-
-        id lastObject = [items lastObject];
-        [lastObject count];
         
         for(BNRItem *item in items) {
             NSLog(@"%@", item);
         }
         
         items = nil;
+        
+        NSLog(@"### Container:");
+        
+        BNRContainer *container = [[BNRContainer alloc] init:10];
+        NSLog(@"%@", container);
+        
+        [container add:[BNRItem randomItem]];
+        NSLog(@"%@", container);
 
     }
     return 0;
