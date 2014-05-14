@@ -21,9 +21,9 @@
 @property (nonatomic) BNRItem *containedItem;
 @property (nonatomic) BNRItem *container;
 
-@property (nonatomic, readwrite, strong) NSString *itemName;
-@property (nonatomic) NSString *serialNumber;
+@property (nonatomic, copy) NSString *itemName;
+@property (nonatomic, copy) NSString *serialNumber;
 @property (nonatomic) int valueInDollars;
-@property (nonatomic, readonly) NSDate *dateCreated;
+@property (nonatomic, readonly, strong) NSDate *dateCreated;
 
 @end
